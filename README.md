@@ -5,7 +5,7 @@ It extends Copilot with additional capabilities through custom skills that can b
 
 ---
 
-## ?? Overview
+##  Overview
 
 This extension provides:
 - A structured manifest for MCP integration
@@ -15,29 +15,29 @@ This extension provides:
 
 ---
 
-## ?? Project Structure
+##  Project Structure
 
 my-extension/
-¦
+Â¦
 +-- manifest.json               # Plugin manifest (entry point)
 +-- color.png                   # App icon (filled)
 +-- outline.png                 # App icon (outline)
-¦
+Â¦
 +-- skills/                     # MCP skills
-¦   +-- contract-analysis/
-¦   ¦   +-- SKILL.md
-¦   ¦   +-- references/
-¦   ¦       +-- clause-taxanomy.md
-¦   ¦       +-- risk-scoring.md
-¦   ¦
-¦   +-- skill-two/
-¦       +-- SKILL.md
-¦
+Â¦   +-- contract-analysis/
+Â¦   Â¦   +-- SKILL.md
+Â¦   Â¦   +-- references/
+Â¦   Â¦       +-- clause-taxanomy.md
+Â¦   Â¦       +-- risk-scoring.md
+Â¦   Â¦
+Â¦   +-- skill-two/
+Â¦       +-- SKILL.md
+Â¦
 +-- .vscode/                    # Editor settings (optional)
 
 ---
 
-## ?? Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 git clone https://github.com/isuruvh/cowork-plugin-creation.git
