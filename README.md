@@ -53,7 +53,7 @@ Load this extension into Cowork or any MCP-compatible agent to activate the skil
 
 ---
 
-## ?? Skills Included
+##  Skills Included
 
 ### **Contract Analysis**
 Located in:
@@ -73,7 +73,7 @@ A placeholder skill for experimentation and future development.
 
 ---
 
-## ?? Development Notes
+##  Development Notes
 
 - All skills follow the MCP skill specification.
 - Icons are included for UI integration.
