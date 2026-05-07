@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "2c73d332-7022-4bd6-ae45-7a95c77eacdf",
+  "packageName": "com.contoso.legal-tools",
+  "developer": {
+    "name": "isurutrader Legal Tech",
+    "websiteUrl": "https://isurutrader.onmicrosoft.com",
+    "privacyUrl": "https://isurutrader.onmicrosoft.com/privacy",
+    "termsOfUseUrl": "https://isurutrader.onmicrosoft.com/terms"
+  },
+  "name": {
+    "short": "isurutrader Legal Tools",
+    "full": "isurutrader Legal Tools for Copilot Cowork"
+  },
+  "description": {
+    "short": "Contract analysis, clause extraction, and legal research",
+    "full": "Comprehensive legal tools for Copilot Cowork including contract analysis, clause extraction, risk assessment, and legal research capabilities."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2B579A",
+  "agentConnectors": [
+    {
+      "id": "isurutrader-legal-api",
+      "displayName": "isurutrader Legal Database",
+      "description": "Access to case law, statutes, and regulatory databases",
+      "toolSource": {
+        "remoteMcpServer": {
+          "mcpServerUrl": "https://api.isurutrader.com/legal/mcp",
+          "authorization": {
+            "type": "OAuthPluginVault",
+            "referenceId": "isurutrader-legal-oauth"
+          }
+        }
+      }
+    }
+  ]
+}
