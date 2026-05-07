@@ -53,7 +53,7 @@ Load this extension into Cowork or any MCP-compatible agent to activate the skil
 
 ---
 
-##:hammer_and_wrench: Skills Included
+## :hammer_and_wrench: Skills Included
  
 
 ### **Contract Analysis**
