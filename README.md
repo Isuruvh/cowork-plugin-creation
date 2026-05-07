@@ -81,6 +81,6 @@ A placeholder skill for experimentation and future development.
 
 ---
 
-## ?? License
+##  License
 
 This project is licensed under the MIT License.
