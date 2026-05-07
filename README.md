@@ -1,11 +1,11 @@
-# Cowork Plugin: My Extension
+## :package: Cowork Plugin: My Extension
 
 This repository contains a custom plugin designed for Microsoft Cowork / MCP (Model Context Protocol).  
 It extends Copilot with additional capabilities through custom skills that can be loaded directly into your workspace.
 
 ---
 
-##  Overview
+## :star: Overview
 
 This extension provides:
 - A structured manifest for MCP integration
@@ -15,7 +15,7 @@ This extension provides:
 
 ---
 
-##  Project Structure
+## :file_folder: Project Structure
 
 my-extension/
 ¦
@@ -37,7 +37,7 @@ my-extension/
 
 ---
 
-##  Getting Started
+## :star: Getting Started
 
 ### 1. Clone the repository
 git clone https://github.com/isuruvh/cowork-plugin-creation.git
@@ -74,7 +74,7 @@ A placeholder skill for experimentation and future development.
 
 ---
 
-##  Development Notes
+## :clipboard: Development Notes
 
 - All skills follow the MCP skill specification.
 - Icons are included for UI integration.
@@ -82,6 +82,6 @@ A placeholder skill for experimentation and future development.
 
 ---
 
-##  License
+## :toolbox: License
 
 This project is licensed under the MIT License.
